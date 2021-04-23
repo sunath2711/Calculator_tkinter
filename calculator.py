@@ -2,7 +2,7 @@ from tkinter import *
 
 root = Tk()
 root.title("Calculator")
-
+root.iconbitmap('./icon.ico')
 
 input_box = Entry(root,width=16,borderwidth=5,font="Helvetica 24 bold",justify="right")
 input_box.grid(row=0,column=0,columnspan=4)
